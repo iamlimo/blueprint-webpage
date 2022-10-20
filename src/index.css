@@ -24,9 +24,6 @@ body {
 code {
   font-family: 'Poppins', sans-serif;
 }
-p{
-  color: #0E2C55;
-}
 h1, h2{
   color: #0E2C55;
 }
@@ -46,5 +43,13 @@ h1, h2{
   }
   h3 {
     @apply text-xl font-medium;
+  }
+  h4{
+    @apply text-sm font-normal;
+  }
+}
+@layer utilities{
+  .lspacing{
+    word-spacing: 10px;
   }
 }

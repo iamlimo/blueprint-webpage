@@ -1,16 +1,18 @@
 nav{
+  margin: 0;
+  width: 100vw;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 10%;
   box-shadow: 0 0 5px 0 rgba(102, 102, 102, 0.6);
+  z-index: 2;
 }
 nav ul li{
   list-style-type: none;
   display: inline-block;
   padding: 10px 20px;
-}
-nav ul li a {
   text-decoration: none;
   color: rgba(102, 102, 102, 0.6);
   font-weight: light;
@@ -33,8 +35,8 @@ nav button{
   margin-left: -55%;
 }
 .quote{
-  color: #0E2C55;
-  margin-top: 25vh;
+  color: #0e2c55;
+  margin-top: 30vh;
 }
 .quote h1{
   font-weight: 700;
@@ -55,6 +57,7 @@ nav button{
   position: absolute;
   align-items: center;
   justify-content: center;
+  margin-top: 20vh;
   right: 0;
   width: 35%;
   display: flex;
@@ -67,5 +70,26 @@ nav button{
   box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.2);
   height: 80%;
   margin-right: 20vw;
-  z-index: 100;
+  z-index: 1;
+}
+.text h2::before{
+  background-color: #C4C4C4;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 40px;
+  right: 0.5em;
+}
+.text h4::before{
+  background-color: #C4C4C4;
+  color: #0e2c55;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 40px;
+  right: 0.5em;
 }
