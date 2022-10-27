@@ -1,0 +1,117 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+.pro-wrapper{
+    margin-top: 50px;
+}
+
+.pro-heading{
+    text-align: center;
+}
+
+.pro-line{
+    width: 50px;
+    border-radius: 25px;
+    padding: 0px 5px 5px 0px;
+}
+
+.pro-title{
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0.05rem;
+    color: #0E2C55;
+ }
+
+.pro-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+ .pro-line2{
+    width: 50px;
+    border-radius: 25px;
+    padding: 0px 15px 0px 0px;
+}
+
+.pro-right{
+    color: #0E2C55;
+    width: 50%;
+    margin-top: 150px;
+}
+
+.pro-headline{
+    color: #0E2C55;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.pro-ul{
+    margin: 20px 0px 0px 57px;
+}
+
+.pro-li{
+    font-size: 17px;
+    font-weight: 300;
+    color: grey;
+    padding-right: 50px;
+    list-style: disc;
+    line-height: 50px;
+
+}
+
+.pro-btn{
+    border: none;
+    text-align: center;
+    height: 35px;
+    padding: 0px 20px;
+    margin: 20px 0px 0px 70px;
+    background-color: #FDEA6A;
+}
+
+.pro-left{
+    width: 50%;
+    background-image: url('../../assets/circle-background.png');
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center;
+}
+
+.pro-img{
+    width: 566.62px;
+    height: 845.45px;
+    left: 118px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.download{
+    margin: -60px 0px 0px 80px;
+}
+
+.download-btn{
+    border: none;
+    margin: 15px;
+    box-shadow: 0px 2px 4px #888888;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    line-height: 3px;
+}
+
+.pro-icon{
+    height: 25px;
+    width: 25px;
+    padding-right: 5px;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.btn-txt{
+    text-align: center;
+    color: grey;
+}

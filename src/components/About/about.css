@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ab-wrapper{
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-con-top{
+    text-align: center;
+    padding: 50px 55px;
+    background-color: rgb(248, 250, 252);
+}
+
+.ab-line{
+    width: 50px;
+    border-radius: 25px;
+    padding: 0px 20px 3px 0px;
+}
+
+.about-title{
+   font-weight: 500;
+   font-size: 30px;
+   letter-spacing: 0.05rem;
+   color: #0E2C55;
+}
+
+.about-words{
+    letter-spacing: 0.05rem;
+    word-spacing: 0.12rem;
+    line-height: 27px;
+    font-size: 16px;
+    color: grey;
+    margin-top: 30px;
+}
+
+.card-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-con-left{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 25px;
+}
+
+.card-con-right{
+    display: flex;
+    flex-direction: column;
+    margin: 145px 25px 0px 25px;
+}
+
+.card{
+    padding: 25px 0px 0px 25px;
+    height: 380px;
+    width: 450px;
+    margin: 0px 0px 40px 0px;
+    border: none;
+    border-radius: 25px;
+}
+
+.card-title{
+    font-size: 18px;
+    text-align: left;
+    color: #0E2C55;
+}
+
+.card-words{
+    font-size: 13px;
+    text-align: left;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.card-bottom{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.card-link{
+    font-size: 10px;
+    font-weight: 500;
+    color: #0E2C55;
+    text-align: left;
+    margin-bottom: 35px;
+    border: none;
+    outline: none;
+    background-color: none;
+}
+
+.card-frame{
+    height: 140px;
+    width: 240px;
+    margin-top: 30px;
+}
+
+.card-line-2{
+    /* margin-bottom: -20px; */
+}
+
+
+/* ABOUT BOTTON CSS */
+
+.about-con-bottom{
+    padding: 100px 0px 50px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.ab-bottom-title{
+    font-weight: 500;
+   font-size: 30px;
+   letter-spacing: 0.05rem;
+   color: #0E2C55;
+}
+
+.ab-bottom-words{
+    letter-spacing: 0.05rem;
+    word-spacing: 0.12rem;
+    font-size: 18px;
+    color: grey;
+    margin-top: 30px;
+    padding: 0px 250px;
+    align-items: center;
+}
+
+.card-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 200px;
+    flex-wrap: wrap;
+}
+
+.about-cards{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.btm-cards{
+    padding: 10px;
+    margin: -20px 35px;
+    box-shadow: 5px 5px 25px #888888;
+    width: 150px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.btm-card-img{
+    height: 50px;
+    width: 50px;
+    background-color: #d9ecff;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.img-top{
+
+}
+
+.btm-card-word{
+    margin: 35px 0px 0px 0px;
+}
+
+
+.about-btn{
+    border: none;
+    text-align: center;
+    height: 35px;
+    padding: 0px 20px;
+    margin: 60px 120px 0px 0px;
+    background-color: #FDEA6A;
+    float: right;
+  }
+
+
+  @media (max-width: 768px) {
+      .ab-wrapper{
+          font-family: poppins;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-right: 30px;
+      }
+      .about-con-top{
+          text-align: center;
+          padding: 30px 55px 10px 55px;
+          margin-right: 250px;
+          background-color: rgb(248, 250, 252);
+      }
+      .about-words{
+          letter-spacing: 0.02rem;
+          word-spacing: 0.05rem;
+          line-height: 18px;
+          font-size: 10px;
+          width: 80vw;
+          text-align: center;
+          color: grey;
+          margin: 0px 50px 0px 50px;
+          padding: 10px 100px 0px 65px;
+      }
+      .about-title{
+          font-weight: 400;
+          font-size: 30px;
+          letter-spacing: 0.05rem;
+          color: #0E2C55;
+          margin-right: 30px;
+       }
+       .card-con{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .card-con-left{
+          display: flex;
+          flex-direction: column;
+          margin: 0px 0px;
+      }
+      .card{
+          padding: 20px;
+          height: 280px;
+          width: 200px;
+          margin: 0px 0px 40px 0px;
+          border: none;
+          border-radius: 25px;
+      }
+      .card-frame{
+          display: none;
+      }
+      .card-words{
+          font-size: 10px;
+          text-align: left;
+          margin-top: 0px;
+          line-height: 19px;
+      }
+      .card-link{
+          font-size: 10px;
+          font-weight: 500;
+          color: #0E2C55;
+          text-align: left;
+          margin-bottom: 0px;
+          border: none;
+          outline: none;
+          background-color: none;
+      }
+      .about-con-bottom{
+          padding: 50px 0px 30px 0px;
+          text-align: center;
+          width: 80%;
+          margin-right: 250px;
+  }
+  .ab-bottom-title{
+      font-weight: 400;
+     font-size: 30px;
+     letter-spacing: 0.05rem;
+     color: #0E2C55;
+     margin-right: 30px;
+  }
+  .ab-bottom-words{
+      letter-spacing: 0.02rem;
+      word-spacing: 0.05rem;
+      font-size: 10px;
+      color: grey;
+      margin: 0px 50px 0px 50px;
+      padding: 10px 100px 0px 65px;
+      align-items: center;
+  }
+  .card-wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0px 0px 0px 50px;
+      flex-wrap: wrap;
+      width: 80%;
+  }
+  .about-cards{
+    margin: 70px 20px 50px 20px;
+}
+  .btm-cards{
+      padding: 0px;
+      margin: -30px 0px -50px 0px;
+      box-shadow: 5px 5px 25px #888888;
+      width: 120px;
+      height: 120px;
+      border-radius: 10px;
+  }
+  .btm-card-img{
+      height: 30px;
+      width: 30px;
+      background-color: #d9ecff;
+      border-radius: 25px;
+      padding: 4px;
+      margin-top: 10px;
+  }
+  .btm-card-word{
+      margin: 25px 0px 0px 0px;
+      font-size: 12px;
+  }
+  .about-btn{
+      border: none;
+      text-align: center;
+      height: 35px;
+      padding: 0px 10px;
+      font-size: 11px;
+      margin: 40px 250px 0px 0px;
+      background-color: #FDEA6A;
+      float: right;
+    }
+  }
+
+
+  
+  @media (max-width: 480px) {
+    .ab-wrapper{
+        font-family: poppins;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .about-con-top{
+        text-align: center;
+        padding: 30px 55px 10px 55px;
+        margin-left: 0px;
+        background-color: rgb(248, 250, 252);
+    }
+    .about-title{
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: 0.05rem;
+        color: #0E2C55;
+        margin-left: 250px;
+     }
+     .about-words{
+        letter-spacing: 0.02rem;
+        word-spacing: 0.05rem;
+        line-height: 18px;
+        font-size: 12px;
+        width: 80vw;
+        text-align: center;
+        color: grey;
+        margin: 0px 0px 0px 255px;
+        padding: 10px 0px 0px 0px;
+    }
+    .card-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0px 30px 250px;
+    }
+    .card-con-right{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 25px 0px 25px;
+    }
+    .card{
+        padding: 25px 0px -20px 25px;
+        height: 280px;
+        width: 300px;
+        margin: 0px 0px 40px 0px;
+        border: none;
+        border-radius: 25px;
+    }
+    
+    .card-title{
+        font-size: 18px;
+        text-align: left;
+        color: #0E2C55;
+    }
+    
+    .card-words{
+        font-size: 13px;
+        text-align: left;
+        margin-top: 0px;
+        line-height: 23px;
+    }
+
+    .card-link{
+        font-size: 10px;
+        font-weight: 500;
+        color: #0E2C55;
+        text-align: left;
+        margin-bottom: 50px;
+        border: none;
+        outline: none;
+        background-color: none;
+        vertical-align: baseline;
+    }
+    .card3, .card4{
+        padding: 40px;
+    }
+    .about-con-bottom{
+        padding: 50px 0px 30px 0px;
+        text-align: center;
+        width: 80%;
+        margin-right: 0px;
+}
+.ab-bottom-words{
+    letter-spacing: 0.02rem;
+    word-spacing: 0.05rem;
+    font-size: 12px;
+    color: grey;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    align-items: center;
+}
+.card-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 35px;
+    flex-wrap: wrap;
+}
+.about-cards{
+    margin: 70px 0px 0px 0px;
+}
+.btm-cards{
+    padding: 0px;
+    margin: -30px 15px -5px 15px;
+    box-shadow: 5px 5px 25px #888888;
+    width: 100px;
+    height: 120px;
+    border-radius: 10px;
+}
+.btm-card-word{
+    margin: 25px 0px 0px 0px;
+    font-size: 10px;
+}
+.btm-card-img{
+    height: 40px;
+    width: 40px;
+    background-color: #d9ecff;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.about-btn{
+    border: none;
+    text-align: center;
+    height: 35px;
+    padding: 0px 10px;
+    font-size: 11px;
+    margin: 50px 110px 0px 0px;
+    background-color: #FDEA6A;
+    float: right;
+  }
+
+}
+
