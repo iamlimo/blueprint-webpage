@@ -18,8 +18,10 @@ const Products = () => {
      </div>
 
      <div className='pro-content'>
+
         <div className='pro-left'>
          <img src={phone} className='pro-img' alt='line' />
+         
          <div className='download'
          style={{margin: '-80px 0px 0px 130px'}}
          >
@@ -33,9 +35,10 @@ const Products = () => {
             </button>
          </div>
         </div>
+        
         <div className='pro-right'>
            <img src={Line} className='pro-line2' alt='line' />
-           <span>ScamTrust</span>
+           <span className='scam'>ScamTrust</span>
            <h2 className="pro-headline">Enabling transparency between the customer <br /> and the vendor by...</h2>
            <ul className='pro-ul'>
                <li className='pro-li'>Personalizing business transaction</li>

@@ -105,7 +105,7 @@ function Intro(){
       <div className="landingCta">
         <div className="intro-top">
           <div className="landing-top">
-            <h2 className="landing-headline">Providing easy <br></br>solutions for you</h2>
+            <h2 className="landing-headline">Providing easy<br/>solutions for you</h2>
             <p className="intro-words">We connect you to solutions designed to eliminate everyday complications or we are a Nigerian tech solutions company committed to simplifying digital processes in every industry across Africa, from Edu-travel to Fintech.
 </p>
           <motion.button className="intro-btn"

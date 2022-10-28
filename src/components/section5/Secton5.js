@@ -9,8 +9,8 @@ const Section5 = () => {
     <div className='sec5-wrapper'>
         <div className='sec5-left'>
          <img src={Line} alt='line' className='pro-line' />
-           <span>Blueprints Travels</span>
-           <h2 className='pro-headline'>Eliminating the boundaries <br/> between you and <br/> international education</h2>
+           <span className='scam'>Blueprints Travels</span>
+           <h2 className='pro-headline'>Eliminating the boundaries <br /> between you and <br/> international education</h2>
            <ul className='sec-ul'>
                <li className='sec-li'>Japa with ease, stress free</li>
                <li className='sec-li'>Getting you admission without IELTS or TOEFL</li>

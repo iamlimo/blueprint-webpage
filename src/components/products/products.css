@@ -115,3 +115,193 @@
     text-align: center;
     color: grey;
 }
+
+
+@media (max-width: 768px) {
+    .pro-wrapper{
+        margin: 50px 0px 0px 0px;
+    }
+    .pro-heading{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .pro-title{
+        font-weight: 400;
+        align-items: center;
+        font-size: 40px;
+        letter-spacing: 0.05rem;
+        color: #0E2C55;
+     }
+     .pro-content{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .pro-left{
+        width: 50%;
+        background-image: url('../../assets/circle-background.png');
+        background-repeat: no-repeat;
+        background-size: 350px;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 150px;
+    }
+    
+    .pro-img{
+        width: 550px;
+        height: 550px;
+        left: 118px;
+        margin: 0px 0px 0px 0px;
+        margin-bottom: 50px;
+    }
+
+    .download{
+        margin: 0px 0px 0px 0px;
+    }
+
+    .download-btn{
+        margin: 15px 20px 15px 20px;
+        box-shadow: 0px 2px 4px #888888;
+        background-color: white;
+        width: 150px;
+        height: 50px;
+        border-radius: 7px;
+        line-height: 3px;
+    }
+    .pro-right{
+        color: #0E2C55;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+    .pro-headline{
+        color: #0E2C55;
+        font-size: 40px;
+        font-weight: 800;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .pro-wrapper{
+        margin: 50px 0px 0px 0px;
+    }
+    .pro-heading{
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    .pro-title{
+        font-weight: 400;
+        align-items: center;
+        font-size: 30px;
+        letter-spacing: 0.05rem;
+        color: #0E2C55;
+        margin-bottom: 0px;
+     }
+     .download-btn{
+        margin: 15px 0px 15px 0px;
+        box-shadow: 0px 2px 4px #888888;
+        background-color: white;
+        width: 150px;
+        height: 50px;
+        border-radius: 7px;
+        line-height: 3px;
+    }
+    .pro-right{
+        color: #0E2C55;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+    .pro-headline{
+        color: #0E2C55;
+        font-size: 28px;
+        font-weight: 700;
+        width: 100%;
+        padding: 10px 0px 10px 20px;
+    }
+    .pro-line2{
+        width: 20px;
+        height: 15px;
+        border-radius: 0px;
+        padding: 0px 10px 8px 0px;
+        margin-left: 22px;
+        color: #FDEA6A;
+    }
+    .scam{
+        margin: 0px 0px 0px 0px;
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .pro-li{
+        font-size: 17px;
+        font-weight: 300;
+        color: grey;
+        padding-left: 0px;
+        list-style: disc;
+        line-height: 38px;
+    }
+    
+.pro-ul{
+    margin: 20px 0px 0px 10px;
+}
+
+.pro-li{
+    font-size: 17px;
+    font-weight: 300;
+    color: grey;
+    padding-right: 50px;
+    list-style: disc;
+    line-height: 35px;
+
+}
+.pro-btn{
+    border: none;
+    text-align: center;
+    height: 35px;
+    padding: 0px 15px;
+    margin: 20px 0px 0px 105px;
+    font-size: 12px;
+    background-color: #FDEA6A;
+}
+.pro-left{
+    width: 100%;
+    background-image: url('../../assets/circle-background.png');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: -40px 0px 0px 0px;
+}
+.pro-img{
+    width: 400px;
+    height: 550px;
+    left: 118px;
+    margin: 30px 0px 30px 0px;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 130px 0px 0px;
+}
+.download-btn{
+    margin: 0px 20px;
+    font-size: 12px;
+    box-shadow: 0px 2px 4px #888888;
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+    line-height: 0px;
+    padding-bottom: 5px;
+}
+    
+}

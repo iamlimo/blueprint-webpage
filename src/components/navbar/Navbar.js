@@ -14,31 +14,33 @@ function NavScrollExample() {
          style={{height: '61px', width: '184px'}}
         />
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Collapse id="navbarScroll" className='navScroll'>
           <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px',
-             marginLeft: '300px',
+            className=" me-auto mt-5 my-lg-0"
+            style={{ maxHeight: '100px', 
+            textAlign:'center',
             fontSize: '19px',
             fontWeight: '300',
           }}
             navbarScroll
           >
-            <Link style={{paddingRight: '40px',textDecoration: 'none', color: 'rgba(102, 102, 102, 0.6)'}} to="/">Home</Link>
-            <Link style={{paddingRight: '40px' ,textDecoration: 'none', color: 'rgba(102, 102, 102, 0.6)'}} to="/about">Solutions</Link>
-            <Link style={{paddingRight: '40px' ,textDecoration: 'none', color: 'rgba(102, 102, 102, 0.6)'}} href="#action2">Blog</Link>
-            <Link style={{paddingRight: '40px' ,textDecoration: 'none', color: 'rgba(102, 102, 102, 0.6)'}} href="#action2">Our Culture</Link>
-
+            <Link style={{textDecoration: 'none', color: 'rgba(102, 102, 102, 0.6)'}} to="/">Home</Link>
+            <hr />
+            <Link style={{textDecoration: 'none', color: 'rgba(102, 102, 102, 0.6)'}} to="/about">Solutions</Link>
+            <hr /> 
+            <Link style={{textDecoration: 'none', color: 'rgba(102, 102, 102, 0.6)'}} href="#action2">Blog</Link>
+            <hr />
+            <Link style={{textDecoration: 'none', color: 'rgba(102, 102, 102, 0.6)'}} href="#action2">Our Culture</Link>
+            <hr />
             <motion.button
             whileHover={{scale: 1.07, originX: 0}}
             transition={{type: 'tween', stiffness: 300}}
 
             style={{border: 'none',
             textAlign: 'center',
-            fontSize: '12px' ,
-            height: '35px',
-            padding: '0px 20px',
-            margin: '5px 0px 0px 0px',
+            fontSize: '14px' ,
+            padding: '10px 20px',
+            margin: '0px 0px 10px 0px',
             backgroundColor: '#FDEA6A'
           }}
             >Get to know more</motion.button>

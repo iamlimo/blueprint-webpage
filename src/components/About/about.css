@@ -101,9 +101,6 @@
     margin-top: 30px;
 }
 
-.card-line-2{
-    /* margin-bottom: -20px; */
-}
 
 
 /* ABOUT BOTTON CSS */
@@ -162,9 +159,6 @@
     margin-top: 10px;
 }
 
-.img-top{
-
-}
 
 .btm-card-word{
     margin: 35px 0px 0px 0px;
@@ -325,7 +319,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-right: 0px;
+        margin: 0px 0px;
     }
     .about-con-top{
         text-align: center;

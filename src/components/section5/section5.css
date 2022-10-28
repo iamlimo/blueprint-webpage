@@ -45,3 +45,60 @@
     margin-right: -40px;
 }
 
+@media (max-width: 480px) {
+    .sec5-wrapper{
+        padding: 0px 0px;
+        margin: 100px 20px 50px 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+.sec5-left{
+    width: 100vw;
+    margin: 0px 20px 0px 0px;
+}
+
+.pro-headline{
+    color: #0E2C55;
+    font-size: 40px;
+    font-weight: 00;
+}
+
+.sec-ul{
+    margin: 10px 0px 0px 0px;
+}
+
+.sec-li{
+    font-size: 17px;
+    font-weight: 300;
+    color: grey;
+    padding-right: 50px;
+    list-style: disc;
+    line-height: 35px;
+}
+
+.sec-btn{
+    border: none;
+    text-align: center;
+    height: 40px;
+    font-size: 12px;
+    padding: 0px 20px;
+    margin: 30px 0px 50px 130px;
+    background-color: #FDEA6A;
+}
+
+.sec-right{
+   margin: 0px 0px 0px 0px;
+}
+
+.sec-img{
+    height: 350px;
+    width: 350px;
+    margin-right: 40px;
+}
+
+}
+
