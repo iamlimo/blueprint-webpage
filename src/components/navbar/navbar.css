@@ -23,6 +23,9 @@ nav button{
   border: none;
   padding: 10px;
 }
+nav .hamburger{
+  display: none;
+}
 .quote p:before{
   background-color: #C4C4C4;
   content: "";
@@ -92,4 +95,70 @@ nav button{
   vertical-align: middle;
   width: 40px;
   right: 0.5em;
+}
+.travels{
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+}
+
+
+@media screen and (max-width: 960px) {
+  nav{
+    padding: 10px 20px;
+  }
+  nav ul{
+    width: 100%;
+    display: none;
+  }
+  nav .expanded .a{
+    width: 100vw;
+  }
+  .expanded{
+    background-color: #ffffff;
+    top: 100%;
+    height: calc(100vh - 25px);
+    left: 0;
+    margin: 0;
+    position: absolute;
+    justify-content: start;
+    align-items: right;
+    display: flex;
+    flex-direction: column;
+  }
+  .expanded li{
+    margin: 0;
+    width: 100vw;
+  }
+  .expanded li:hover{
+    background-color: #C4C4C4;
+  }
+  nav .hamburger{
+    display: block;
+    border: 0;
+  }
+}
+
+
+@media screen and (max-width: 960px) {
+  .bluee{
+  background-color: rgba(206, 228, 241, 0.24);
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32vh;
+  right: 0;
+  width: 35%;
+  display: flex;
+  height: 300px;
+}
+.bluee img{
+  display: flex;
+  box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.2);
+  height: 80%;
+  margin-right: 10vw;
+  z-index: 1;
+}
+.travels{
+  margin-top: 5vh;
+}
 }

@@ -8,7 +8,7 @@ import copy from '../../logo/copy.svg'
 
 const Footer = () => {
   return <>
-    <div style={{ backgroundColor: '#002C61', color: '#FFFFFF' }} className='grid grid-cols-3 p-10'>
+    <div style={{ backgroundColor: '#002C61', color: '#FFFFFF' }} className='grid grid-cols-3 p-10 md:text-xs'>
       <div style={{ color: '#FFFFFF' }}>
         <h3>Blueprints Pathway</h3>
         <p style={{ color: '#FFFFFF' }}>Elf Bus stop, No 1b Akinyemi Ave,<br /> Lekki Phase 1 106104, Lagos</p>
