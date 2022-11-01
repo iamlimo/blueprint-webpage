@@ -34,16 +34,12 @@
 }
 
 #quote{
-    /* position: relative; */
     top: 3px;
     left: 2px;
     font-family: 'Poppins';
 font-style: 40px;
 line-height: 58px;
-/* or 242% */
-
 letter-spacing: 0.02em;
-
 color: #0E2C55;
 }
 
@@ -64,18 +60,27 @@ color: #0E2C55;
 #feel > p{
     font-size: 18px;
 }
-.emoji > div{
-    margin-top: 20px;
-    text-align: center;
-    display: inline-block;
-    margin-right: 42px;
-    font-size: 40px;
+
+ .modal-backdrop{
+  background-color:#fcf2b9;
+  opacity: 0.2;
+} 
+
+/* .modal2-backdrop{
+  background-color: blue;
+  opacity: 0.5;
+} */
+
+.modal-em:hover{
+  backdrop-filter: blur(10px);
+  filter: blur(2px);
+  transition: 0.5s ease;
 }
 
 #scroll-down {
     position:relative;
     right: 0;
-    bottom: 0;
+    bottom: 15em;
     left: 10em;
     width: 34px;
     height: 55px;
@@ -115,19 +120,20 @@ color: #0E2C55;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 150px 0px 0px 0px;
+    margin: 150px 20px 0px 20px;
   }
 
 .intro-top{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
   .landing-top{
     font-family: poppins;
    padding: 20px 30px 20px 30px;
-   margin: 150px 150px 0px 0px;
+   margin: 150px 0px 0px 0px;
+   width: 60vw;
   }
 
 .landing-headline{
@@ -155,15 +161,50 @@ color: #0E2C55;
   width: 40vw;
 }
 
-.intro-img{
-  width: 370px;
-} 
+.right-side{
+  width: 40vw;
+}
+
+.intro-pic{
+  height: 600px;
+  width: 450px;
+  padding: 0px 15px 0px 0px;
+}
 
 /* BOTTOM */
 
 .intro-bottom{
   background-color: rgba(255, 138, 0, 0.04);
   margin-top: 60px;
+}
+.span-div{
+  margin: -60px 0px -80px 0px;
+}
+
+.span-txt{
+  padding: 0px 0px 0px 260px;
+}
+
+.line{
+  margin: -25px 0px 15px 265px;
+  border: 6px solid #f3d40d;
+  border-radius: 5px;
+  height: 10px;
+}
+.con-line{
+  width: 295px;
+}
+.ess-line{
+  width: 235px;
+}
+.easy-line{
+  width: 115px;
+}
+.cre-line{
+  width: 215px;
+}
+.acc-line{
+  width: 275px;
 }
 
 .intro-ul{
@@ -220,7 +261,7 @@ width: 70%;
 #scroll-down {
   position:relative;
   right: 0;
-  bottom: 10em;
+  bottom: 6em;
   left: 5em;
   width: 34px;
   height: 55px;
@@ -234,19 +275,21 @@ background-position: bottom bottom;
   flex-direction: column;
   justify-content: center;
   margin: 0px 0px 0px 0px;
+  position: relative;
 }
 
 .intro-top{
-display: flex;
+/* display: flex;
 justify-content: center;
-align-items: center;
+align-items: center; */
 }
 
 .landing-top{
+  position: relative;
   font-family: poppins;
- padding: 20px 30px 20px 30px;
+ padding: 20px 20px 20px 20px;
  margin: 150px 0px 0px 0px;
- width: 100%;
+ width: 100vw;
 }
 
 .landing-headline{
@@ -274,14 +317,19 @@ color: grey;
 margin-top: 30px;
 width: 50vw;
 }
+.right-side{
+  width: 100vw;
+  position: absolute;
+}
 .intro-pic{
-  width: 250px;
-  height: 450px;
-  margin: 150px 50px 0px 0px;
+  width: 300px;
+  height: 400px;
+  margin: 250px 0px 0px 0px;
+  float: right;
 }
 .intro-bottom{
   background-color: rgba(255, 138, 0, 0.04);
-  margin-top: 0px;
+  margin-top: 25px;
 }
 
 .intro-ul{
@@ -326,8 +374,8 @@ width: 50vw;
   #scroll-down {
     position:relative;
     right: 0;
-    bottom: 3em;
-    left: 2em;
+    bottom: 5em;
+    left: 1em;
     width: 34px;
     height: 55px;
   }
@@ -351,7 +399,7 @@ width: 50vw;
   
   .landing-top{
     font-family: poppins;
-   padding: 20px 30px 20px 30px;
+   padding: 20px 10px 20px 20px;
    margin: 150px 0px 0px 0px;
    width: 100%;
   }
@@ -359,11 +407,28 @@ width: 50vw;
   .landing-headline{
     font-style: normal;
     color: #0E2C55;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 800;
     width: 100%;
   }
-  
+  .span-div{
+    /* margin: -43px 0px -60px 0px; */
+    margin: 0px 0px -60px 0px;
+  }
+  .span-txt{
+    /* padding: 0px 0px 0px 185px; */
+    padding: 0px 0px 0px 0px;
+  }
+  .right-side{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px 0px 55px;
+    margin: 0px 20px;
+  }
   .intro-btn{
   border: none;
   text-align: center;
@@ -376,19 +441,41 @@ width: 50vw;
   .intro-words{
   letter-spacing: 0.05rem;
   word-spacing: 0.5rem;
-  font-size: 18px;
+  font-size: 13px;
   color: grey;
   margin: 20px 0px 10px 0px;
   width: 80vw;
   }
   .intro-pic{
-    width: 250px;
-    height: 275px;
-    margin: 0px 0px 20px 0px;
+    width: 350px;
+    height: 350px;
+    margin: 0px 0px 0px 0px;
   }
   .intro-bottom{
     background-color: rgba(255, 138, 0, 0.04);
     margin-top: 0px;
+  }
+
+  .line{
+    margin: -22px 0px 20px 0px;
+    border: 6px solid #f3d40d;
+    border-radius: 5px;
+    height: 10px;
+  }
+  .con-line{
+    width: 210px;
+  }
+  .ess-line{
+    width: 170px;
+  }
+  .easy-line{
+    width: 90px;
+  }
+  .cre-line{
+    width: 155px;
+  }
+  .acc-line{
+    width: 195px;
   }
   
   .intro-ul{

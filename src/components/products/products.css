@@ -10,6 +10,7 @@
 
 .pro-heading{
     text-align: center;
+    margin-bottom: -30px;
 }
 
 .pro-line{
@@ -28,7 +29,7 @@
 .pro-content{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -41,7 +42,7 @@
 .pro-right{
     color: #0E2C55;
     width: 50%;
-    margin-top: 150px;
+    margin: 150px 0px 0px 100px;
 }
 
 .pro-headline{
@@ -81,16 +82,25 @@
     background-position: center;
 }
 
+
 .pro-img{
-    width: 566.62px;
-    height: 845.45px;
+    width: 480px;
+    height: 800px;
     left: 118px;
-    margin-left: 40px;
-    margin-bottom: 30px;
+    margin: 45px 0px 0px 55px;
+    padding-top: 57px;
+}
+
+.pro-img2{
+    width: 480px;
+    height: 800px;
+    left: 118px;
+    margin: 45px 0px 0px 55px;
+    padding-bottom: 57px;
 }
 
 .download{
-    margin: -60px 0px 0px 80px;
+    margin: -60px 0px 0px 130px;
 }
 
 .download-btn{
@@ -119,7 +129,7 @@
 
 @media (max-width: 768px) {
     .pro-wrapper{
-        margin: 50px 0px 0px 0px;
+        margin: 100px 0px 0px 0px;
     }
     .pro-heading{
         text-align: center;
@@ -131,6 +141,7 @@
         font-size: 40px;
         letter-spacing: 0.05rem;
         color: #0E2C55;
+        margin-bottom: 20px;
      }
      .pro-content{
         display: flex;
@@ -140,31 +151,43 @@
         width: 100%;
     }
     .pro-left{
-        width: 50%;
+        width: 100%;
         background-image: url('../../assets/circle-background.png');
         background-repeat: no-repeat;
         background-size: 350px;
-        background-position: center;
+        background-position: 50px 200px;
         display: flex;
         align-items: center;
-        justify-content: center;
-        margin: 0px 150px;
+        justify-content: space-between;
+        margin: 0px 0px;
     }
     
-    .pro-img{
-        width: 550px;
-        height: 550px;
-        left: 118px;
-        margin: 0px 0px 0px 0px;
-        margin-bottom: 50px;
-    }
+  
+.pro-img{
+    width: 350px;
+    height: 650px;
+    left: 118px;
+    margin: 25px 0px 0px 30px;
+    padding: 50px 0px 0px 30px;
+}
+
+.pro-img2{
+    width: 350px;
+    height: 650px;
+    left: 118px;
+    margin: 25px 0px 0px 30px;
+    padding: 0px 0px 40px 30px;
+}
 
     .download{
-        margin: 0px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 150px 0px 0px;
     }
 
     .download-btn{
-        margin: 15px 20px 15px 20px;
+        margin: 20px 0px 20px 20px;
         box-shadow: 0px 2px 4px #888888;
         background-color: white;
         width: 150px;
@@ -175,12 +198,39 @@
     .pro-right{
         color: #0E2C55;
         width: 100%;
-        margin: 0px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
+    }
+    .pro-line2{
+        display: none;
+    }
+    .scam{
+        padding-left: 300px;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    .pro-ul{
+        margin-left: 150px;
+    }
+    .pro-li{
+        font-size: 20px;
+        font-weight: 300;
+        color: grey;
+        padding-right: 50px;
+        list-style: disc;
+        line-height: 50px;
+    
     }
     .pro-headline{
         color: #0E2C55;
         font-size: 40px;
         font-weight: 800;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 10px;
+        text-align: center;
+    }
+    .pro-btn{
+       margin: 30px 0px 30px 300px;
     }
 }
 
@@ -212,37 +262,36 @@
         line-height: 3px;
     }
     .pro-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         color: #0E2C55;
         width: 100%;
-        margin: 0px 0px 0px 0px;
+        margin: 0px 30px 0px 10px;
     }
     .pro-headline{
         color: #0E2C55;
-        font-size: 28px;
+        font-size: 30px;
         font-weight: 700;
         width: 100%;
         padding: 10px 0px 10px 20px;
     }
     .pro-line2{
-        width: 20px;
-        height: 15px;
-        border-radius: 0px;
-        padding: 0px 10px 8px 0px;
-        margin-left: 22px;
-        color: #FDEA6A;
+        display: none;
     }
     .scam{
-        margin: 0px 0px 0px 0px;
+        padding-left: 0px;
         font-size: 30px;
-        font-weight: 200;
+        font-weight: 300;
+        margin: 30px 0px 0px 0px;
     }
     .pro-li{
-        font-size: 17px;
+        font-size: 20px;
         font-weight: 300;
         color: grey;
         padding-left: 0px;
         list-style: disc;
-        line-height: 38px;
+        line-height: 45px;
     }
     
 .pro-ul{
@@ -250,7 +299,7 @@
 }
 
 .pro-li{
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 300;
     color: grey;
     padding-right: 50px;
@@ -263,7 +312,7 @@
     text-align: center;
     height: 35px;
     padding: 0px 15px;
-    margin: 20px 0px 0px 105px;
+    margin: 30px 0px 20px 0px;
     font-size: 12px;
     background-color: #FDEA6A;
 }
@@ -271,26 +320,35 @@
     width: 100%;
     background-image: url('../../assets/circle-background.png');
     background-repeat: no-repeat;
-    background-size: 350px;
-    background-position: center;
+    background-size: 370px;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: -40px 0px 0px 0px;
+    margin: -50px 20px 0px 20px;
 }
 .pro-img{
-    width: 400px;
+    width: 380px;
     height: 550px;
     left: 118px;
-    margin: 30px 0px 30px 0px;
+    margin: 70px 40px 0px 0px;
+    padding: 40px 0px 0px 35px;
+}
+
+.pro-img2{
+    width: 380px;
+    height: 550px;
+    left: 118px;
+    margin: 70px 40px 0px 0px;
+    padding: 0px 0px 40px 30px;
 }
 
 .download{
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
-    padding: 30px 130px 0px 0px;
+    margin: -10px 0px 70px 0px;
 }
 .download-btn{
     margin: 0px 20px;

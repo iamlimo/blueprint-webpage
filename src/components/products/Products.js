@@ -1,7 +1,8 @@
 import React from 'react'
 import './products.css'
 import Line from '../../assets/line-this.png'
-import phone from '../../assets/phone-img.jpg'
+import phone from '../../assets/phone-img.png'
+import phone2 from '../../assets/phone2-img.png'
 import google from '../../assets/google-play.png'
 import app from '../../assets/app-store.png'
 import { motion } from "framer-motion"
@@ -20,15 +21,26 @@ const Products = () => {
      <div className='pro-content'>
 
         <div className='pro-left'>
-         <img src={phone} className='pro-img' alt='line' />
+         {/* <img src={phone} className='pro-img' alt='line' /> */}
+
+         <div id=" carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+  <div className="carousel-inner">
+    <div className="phone-img carousel-item active"  transition="transform 2s ease-in, opacity 1s ease-out" data-bs-interval="3000">
+      <img src={phone} className="pro-img d-block" alt="..." />
+    </div>
+    <div className="phone2-img carousel-item"  transition="transform 2s ease-in, opacity 1s ease-out" data-bs-interval="3000">
+      <img src={phone2} className="pro-img2 d-block" alt="..." />
+    </div>
+  </div>
+</div>
          
          <div className='download'
-         style={{margin: '-80px 0px 0px 130px'}}
          >
             <button className='download-btn'>
             <img src={google} className='pro-icon' alt='line' />
             <span className='btn-txt'>Download on Playstore</span> 
             </button>
+            
             <button className='download-btn'>
                 <img src={app} className='pro-icon' alt='line' />
                <span className='btn-txt'>Download on Appstore</span> 

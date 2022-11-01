@@ -23,10 +23,12 @@ const About = () => {
 
                {/* ABOUT TOP */}
       <div className='about-con-top'>
+        <div className='ab-top-title'>
           <img src={Line} className='ab-line' alt='line' />
           <span className='about-title'>
               What we do
           </span>
+        </div>
           <p className='about-words'>
           We create solutions designed to eliminate everyday complications. Blueprints Pathway is a place where businesses become brands. We are a Nigerian Digital Agency company committed to simplifying digital processes in every industry across Africa.
           We believe in better. Because better doesn’t live in isolation and never stops evolving. Because better knows that best is only temporary. We are new, fresh and hungry. We exist to make the world a better experience.
@@ -144,7 +146,7 @@ const About = () => {
 
                 {/* ABOUT BOTTOM */}
       <div className='about-con-bottom'>
-          <img src={Line} className='ab-line' alt='line' />
+          <img src={Line} className='ab-line btm-line' alt='line' />
           <span className='ab-bottom-title'>
               What we believe
           </span>
@@ -159,26 +161,28 @@ const About = () => {
                   return (
                     <div className='about-cards'
                     >   
-            <motion.div
-            key={item.index} 
+            <motion.div 
             whileHover={{width: '180px', paddingBottom: '175px', backgroundColor: '#d9ecff'}}
             transition={{ease: "linear"}}
             onMouseOver={()=>handleHover(index)} onMouseOut={handleMouseOut}
             className='btm-cards'>
+              key={item.id}
               <img className='btm-card-img img-top' src={item.img} alt={item.alt}/>
               <h6 className='btm-card-word'>{item.word}</h6>
                    {show === index ? <p className='hover'>{item.hover}</p>: null } 
 
-            </motion.div>
+            </motion.div> 
                 </div>
                   )
                 })}
-               </div>
-         
-          <motion.button className='about-cta about-btn'
+
+         <motion.button className='about-cta about-btn'
            whileHover={{scale: 1.07, originX: 0}}
            transition={{type: 'tween', stiffness: 300}}
           >Get to know more</motion.button>
+
+               </div>
+         
       </div>
   </div>
   )

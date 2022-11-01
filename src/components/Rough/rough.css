@@ -1,0 +1,36 @@
+.con-line{
+    width: 80px;
+    border: 2px solid #fdea6a;
+    border-radius: 2px;
+    margin-top: -20px;
+}
+.ess-line{
+    width: 60px;
+    border: 2px solid #fdea6a;
+    border-radius: 2px;
+    margin-top: -20px;
+}
+.easy-line{
+    width: 30px;
+    border: 2px solid #fdea6a;
+    border-radius: 2px;
+    margin-top: -20px;
+}
+.cre-line{
+    width: 55px;
+    border: 2px solid #fdea6a;
+    border-radius: 2px;
+    margin-top: -20px;
+}
+.acc-line{
+    width: 70px;
+    border: 2px solid #fdea6a;
+    border-radius: 2px;
+    margin-top: -20px;
+}
+
+.rough-div{
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+}

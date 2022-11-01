@@ -19,7 +19,6 @@
 }
 
 .foo-ul{
-    list-style-type: none;
     margin-top: 13px;
 }
 
@@ -36,12 +35,19 @@
 .foo-middle{
 }
 
+.ul-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .foo-right{
     margin-left: -150px;
 }
 
 hr{
-    border-color: inherit
+    border-color: inherit;
+    border: 2px solid white;
 }
 
 .foo-li{
@@ -75,9 +81,117 @@ hr{
     margin: 0px 15px;
     background-color: #6190ea;
     border-radius: 50%;
+    text-decoration: none;
 }
 
+a{
+    text-decoration: none !important;
+    color: white;
+}
+a:hover
+{
+  color:white;
+  text-decoration:none;
+  cursor:pointer;
+}
 
+@media (max-width: 768px) {
+    
+.foo-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    color: white;
+    background-color: #0E2C55;
+}
+
+.foo-title{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px 10px -20px 0px;
+}
+
+.foo-ul{
+    margin-top: 13px;
+}
+
+.ul-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+
+.foo-left{
+}
+
+.foo-middle{
+}
+
+.ul-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foo-right{
+    margin-left: 0px;
+    width: 33vw;
+}
+
+hr{
+    color: white;
+}
+
+.right-line{
+    display: none;
+}
+
+.foo-li{
+     font-size: 12px;
+     line-height: 22px;
+     margin-left: -25px;
+}
+
+.li-right{
+    padding: 15px;
+    height: 5px;
+    width: 5px;
+}
+
+.foo-img{
+    height: 75px;
+    width: 75px;
+    padding: 20px 12px;
+}
+
+.foot-btm{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 12px;
+}
+
+.f-icon{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    margin: 30px 0px;
+    background-color: #6190ea;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none !important;
+    color: white;
+}
+a:hover
+{
+  color:white;
+  text-decoration:none;
+  cursor:pointer;
+}
+}
 @media (max-width: 480px) {
     *{
         margin: 0px;
@@ -91,7 +205,7 @@ hr{
         width: 100%;
         justify-content: center;
         align-items: center;
-        padding: 50px 0px;
+        padding: 50px 0px 20px 0px;
         color: white;
         background-color: #0E2C55;
     }
@@ -110,8 +224,9 @@ hr{
     .ul-right{
         display: flex;
         align-items: center;
+        justify-content: center;
         justify-content: space-between;
-        margin-left: 0px;
+        margin: 20px 0px 0px 0px;
     }
     
     .foo-left{
@@ -123,7 +238,10 @@ hr{
     }
     
     .foo-right{
-        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0px 0px 0px;
     }
     
     hr{
@@ -134,7 +252,8 @@ hr{
         width: 100%;
          font-size: 12px;
          line-height: 22px;
-         margin-left: -25px;
+         margin-left: 0px;
+         text-align: left;
     }
     
     .li-right{
@@ -159,7 +278,7 @@ hr{
         height: 20px;
         width: 20px;
         padding: 10px;
-        margin: 0px 15px;
+        margin: 10px 10px;
         background-color: #6190ea;
         border-radius: 50%;
     }

@@ -170,7 +170,7 @@
     text-align: center;
     height: 35px;
     padding: 0px 20px;
-    margin: 60px 120px 0px 0px;
+    margin: 60px 50px 0px 50px;
     background-color: #FDEA6A;
     float: right;
   }
@@ -179,39 +179,41 @@
   @media (max-width: 768px) {
       .ab-wrapper{
           font-family: poppins;
+          width: 100vw;
           display: flex;
           flex-direction: column;
           align-items: center;
-          margin-right: 30px;
+          margin-right: 0px;
       }
       .about-con-top{
           text-align: center;
-          padding: 30px 55px 10px 55px;
-          margin-right: 250px;
+          padding: 30px 30px 10px 30px;
+          margin-right: 0px;
           background-color: rgb(248, 250, 252);
       }
       .about-words{
           letter-spacing: 0.02rem;
           word-spacing: 0.05rem;
           line-height: 18px;
-          font-size: 10px;
-          width: 80vw;
+          font-size: 13px;
+          width: 100vw;
           text-align: center;
           color: grey;
           margin: 0px 50px 0px 50px;
-          padding: 10px 100px 0px 65px;
+          padding: 10px 40px 0px 40px;
       }
       .about-title{
           font-weight: 400;
           font-size: 30px;
           letter-spacing: 0.05rem;
           color: #0E2C55;
-          margin-right: 30px;
+          margin-right: 0px;
        }
        .card-con{
           display: flex;
           justify-content: center;
           align-items: center;
+          margin-left: 50px;
       }
       .card-con-left{
           display: flex;
@@ -219,10 +221,10 @@
           margin: 0px 0px;
       }
       .card{
-          padding: 20px;
-          height: 280px;
-          width: 200px;
-          margin: 0px 0px 40px 0px;
+          padding: 30px 20px 20px 20px;
+          height: 270px;
+          width: 280px;
+          margin: 0px 20px 40px 0px;
           border: none;
           border-radius: 25px;
       }
@@ -230,10 +232,10 @@
           display: none;
       }
       .card-words{
-          font-size: 10px;
+          font-size: 11px;
           text-align: left;
           margin-top: 0px;
-          line-height: 19px;
+          line-height: 25px;
       }
       .card-link{
           font-size: 10px;
@@ -245,33 +247,36 @@
           outline: none;
           background-color: none;
       }
+      .card3, .card4{
+        padding: 40px;
+    }
       .about-con-bottom{
-          padding: 50px 0px 30px 0px;
+          padding: 50px 0px 0px 0px;
           text-align: center;
-          width: 80%;
-          margin-right: 250px;
+          width: 100%;
+          margin-right: 0px;
   }
   .ab-bottom-title{
       font-weight: 400;
      font-size: 30px;
      letter-spacing: 0.05rem;
      color: #0E2C55;
-     margin-right: 30px;
+     margin-right: 0px;
   }
   .ab-bottom-words{
       letter-spacing: 0.02rem;
       word-spacing: 0.05rem;
-      font-size: 10px;
+      font-size: 13px;
       color: grey;
       margin: 0px 50px 0px 50px;
-      padding: 10px 100px 0px 65px;
+      padding: 10px 40px 0px 40px;
       align-items: center;
   }
   .card-wrapper{
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 0px 0px 0px 50px;
+      margin: 0px 0px 0px 80px;
       flex-wrap: wrap;
       width: 80%;
   }
@@ -301,12 +306,11 @@
   .about-btn{
       border: none;
       text-align: center;
-      height: 35px;
-      padding: 0px 10px;
-      font-size: 11px;
-      margin: 40px 250px 0px 0px;
+      height: 45px;
+      padding: 0px 20px;
+      font-size: 13px;
+      margin: 50px 0px 0px 0px;
       background-color: #FDEA6A;
-      float: right;
     }
   }
 
@@ -314,43 +318,56 @@
   
   @media (max-width: 480px) {
     .ab-wrapper{
+        width: 100%;
         font-family: poppins;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 0px 0px;
+        margin: 0px 0px 0px 0px;
+        padding-right: 0px;
+        background-color: rgb(248, 250, 252);
     }
     .about-con-top{
-        text-align: center;
-        padding: 30px 55px 10px 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px 10px 0px;
         margin-left: 0px;
         background-color: rgb(248, 250, 252);
+    }
+    .ab-line{
+        width: 30px;
+        border-radius: 25px;
+        padding: 0px 3px 7px 0px;
+        margin-left: 0px;
     }
     .about-title{
         font-weight: 400;
         font-size: 30px;
         letter-spacing: 0.05rem;
         color: #0E2C55;
-        margin-left: 250px;
+        text-align: center;
+        margin-left: 0px;
      }
      .about-words{
+        float: right;
         letter-spacing: 0.02rem;
         word-spacing: 0.05rem;
         line-height: 18px;
         font-size: 12px;
-        width: 80vw;
+        width: 100vw;
         text-align: center;
         color: grey;
-        margin: 0px 0px 0px 255px;
-        padding: 10px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        padding: 10px 10px 0px 10px;
     }
     .card-con{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 50px 0px 30px 250px;
+        margin: 50px 0px 30px 0px;
     }
     .card-con-right{
         display: flex;
@@ -394,9 +411,9 @@
         padding: 40px;
     }
     .about-con-bottom{
-        padding: 50px 0px 30px 0px;
+        padding: 50px 20px 0px 20px;
         text-align: center;
-        width: 80%;
+        width: 100%;
         margin-right: 0px;
 }
 .ab-bottom-words{
@@ -407,6 +424,9 @@
     margin: 0px 0px 0px 0px;
     padding: 10px 0px 0px 0px;
     align-items: center;
+}
+.btm-line{
+    margin-left: 0px;
 }
 .card-wrapper{
     display: flex;
@@ -444,9 +464,8 @@
     height: 35px;
     padding: 0px 10px;
     font-size: 11px;
-    margin: 50px 110px 0px 0px;
+    margin: 50px 0px 50px 0px;
     background-color: #FDEA6A;
-    float: right;
   }
 
 }
