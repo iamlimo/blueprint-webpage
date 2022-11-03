@@ -165,8 +165,7 @@ const About = () => {
             whileHover={{width: '180px', paddingBottom: '175px', backgroundColor: '#d9ecff'}}
             transition={{ease: "linear"}}
             onMouseOver={()=>handleHover(index)} onMouseOut={handleMouseOut}
-            className='btm-cards'> 
-              key={item.id}
+            className='btm-cards'  key={item.id}> 
               <img className='btm-card-img img-top' src={item.img} alt={item.alt}/>
               <h6 className='btm-card-word'>{item.word}</h6>
                    {show === index ? <p className='hover'>{item.hover}</p>: null } 

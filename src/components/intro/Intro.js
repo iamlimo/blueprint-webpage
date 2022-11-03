@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import LineImg from '../../assets/line-this.png'
 import HouseOfBread from '../../assets/HouseOfBread.png'
 import Arik from '../../assets/Arik-pic.png'
@@ -6,9 +6,20 @@ import Chidinma from '../../assets/chidinma-pic.png'
 import Gale from '../../assets/intro-img.png'
 import './intro.css'
 import { motion } from "framer-motion"
+import Axios from 'axios'
 
 
 function Intro(){
+
+  const[item, setItem]=useState([])
+
+  useEffect(() => {
+    Axios.get('https://api.quotable.io/random')
+    .then((res) => {
+      setItem(res.data)
+      console.log(res.data);
+    })
+  },[])
 
   return(
     <>
@@ -20,9 +31,9 @@ function Intro(){
                 <span id="quote">Quote of the week:</span>
                 </div>
                 <div id="actual-quote">
-                <h1 id="h1-center">“Always deliver more than expected”</h1>
+                <h1 id="h1-center">“{item.content}”</h1>
            </div>
-
+           {/* Always deliver more than expected */}
            <div id="feel">
             <p>How do you feel today?</p>  
 
@@ -80,7 +91,6 @@ function Intro(){
     
       <div className="modal-body p-5 text-center pe-5 default">
       It's cool to be different and just be who you are and shock people in a good way.
-
       </div>
     </div>
   </div>
@@ -101,7 +111,7 @@ function Intro(){
         {/* end of top */}
       
 
-      <div className="landingCta">
+      <div id="#landingCta">
         <div className="intro-top">
           <div className="landing-top">
             <h2 className="landing-headline">Providing 
@@ -162,6 +172,7 @@ function Intro(){
 
           </div>
           </div>
+          
           <div className="intro-bottom">
             <ul className="intro-ul">
               <li>Vava</li>
