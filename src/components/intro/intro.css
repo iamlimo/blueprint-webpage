@@ -76,7 +76,8 @@ color: #0E2C55;
 #scroll-down {
   position:relative;
   right: 0;
-  bottom: 0;
+  bottom: 0em;
+  top: 12em;
   margin-top: -270px;
   left: 10em;
   width: 34px;
@@ -175,7 +176,7 @@ background-size: 1050px;
 
 .intro-bottom{
   background-color: rgba(255, 138, 0, 0.04);
-  margin-top: 60px;
+  margin-top: 0px;
   margin-bottom: -17px;
 }
 .span-div{
@@ -262,7 +263,8 @@ width: 70%;
 #scroll-down {
   position:relative;
   right: 0;
-  bottom: 6em;
+  bottom: 0em;
+  top: 10em;
   left: 5em;
   width: 34px;
   height: 55px;
@@ -288,8 +290,8 @@ align-items: center; */
 .landing-top{
   position: relative;
   font-family: poppins;
- padding: 20px 20px 20px 20px;
- margin: 150px 0px 0px 0px;
+ padding: 0px 20px 20px 20px;
+ margin: -90px 0px 0px 0px;
  width: 100vw;
 }
 
@@ -321,6 +323,7 @@ width: 50vw;
 .right-side{
   width: 100vw;
   position: absolute;
+  margin-top: -190px;
 }
 .intro-pic{
   width: 300px;
@@ -375,7 +378,8 @@ width: 50vw;
   #scroll-down {
     position:relative;
     right: 0;
-    bottom: 5em;
+    bottom: 0em;
+    top: 9em;
     left: 1em;
     width: 34px;
     height: 55px;
@@ -391,6 +395,10 @@ width: 50vw;
     margin: 0px 0px 0px 0px;
   }
   
+  .modal-content{
+    margin-top: 150px;
+  }
+
   .intro-top{
   display: flex;
   flex-direction: column;
@@ -401,7 +409,7 @@ width: 50vw;
   .landing-top{
     font-family: poppins;
    padding: 20px 10px 20px 20px;
-   margin: 150px 0px 0px 0px;
+   margin: -150px 0px 0px 0px;
    width: 100%;
   }
   
