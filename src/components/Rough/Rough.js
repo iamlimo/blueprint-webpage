@@ -1,24 +1,30 @@
-import React, { useEffect, useState } from 'react'
-import Axios from 'axios'
+import React from 'react'
+// import Quotes from '../Quotes'
 
 const Rough = () => {
 
-  const[item, setItem] = useState([])
+//   const[item, setItem]=useState([])
 
-  useEffect(() => {
-    Axios.get('https://api.quotable.io/random')
-    .then((res) => {
-      setItem(res.data)
-      console.log(res.data);
-    })
-  },[])
+//   useEffect(() => {
+//     Axios.get('https://api.quotable.io/random')
+//     .then((res) => {
+//       setItem(res.data)
+//       console.log(res.data);
+//     })
+//   },[])
+
+
+//   const quoteItem = Quotes[Math.floor(Math.random() * Quotes.length)];
+
+const year = new Date().getFullYear()
+
+console.log(year);
 
   return (
-    <div>
-      <p>{item.content}</p>
-      <h6>{item.author}</h6>
+    <div>   
+        copyright @ {year}    
     </div>
   )
 };
 
-export default Rough
+export default Rough;

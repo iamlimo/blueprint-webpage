@@ -160,6 +160,7 @@ const About = () => {
                 {data.map((item, index) => {
                   return (
                     <div className='about-cards'
+                    key={item.id}
                     >   
             <motion.div 
             whileHover={{width: '180px', paddingBottom: '175px', backgroundColor: '#d9ecff'}}

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import LineImg from '../../assets/line-this.png'
 import HouseOfBread from '../../assets/HouseOfBread.png'
 import Arik from '../../assets/Arik-pic.png'
@@ -6,20 +6,12 @@ import Chidinma from '../../assets/chidinma-pic.png'
 import Gale from '../../assets/intro-img.png'
 import './intro.css'
 import { motion } from "framer-motion"
-import Axios from 'axios'
+import Quotes from "../Quotes";
 
 
 function Intro(){
 
-  const[item, setItem]=useState([])
-
-  useEffect(() => {
-    Axios.get('https://api.quotable.io/random')
-    .then((res) => {
-      setItem(res.data)
-      console.log(res.data);
-    })
-  },[])
+  const quoteItem = Quotes[Math.floor(Math.random() * Quotes.length)]
 
   return(
     <>
@@ -28,10 +20,10 @@ function Intro(){
            <div id="home-jumbo" className="homexx">
                 <div id="qoutify">
                 <span id="line"><img src={LineImg} id="line-img" alt="..." /></span>
-                <span id="quote">Quote of the week:</span>
+                <span id="quote">Quote of the day:</span>
                 </div>
                 <div id="actual-quote">
-                <h1 id="h1-center">“{item.content}”</h1>
+                <h1 id="h1-center">“{quoteItem.quote}”</h1>
            </div>
            {/* Always deliver more than expected */}
            <div id="feel">
@@ -111,7 +103,7 @@ function Intro(){
         {/* end of top */}
       
 
-      <div id="#landingCta">
+      <div id="landingCta">
         <div className="intro-top">
           <div className="landing-top">
             <h2 className="landing-headline">Providing 

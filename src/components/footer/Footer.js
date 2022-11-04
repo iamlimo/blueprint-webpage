@@ -5,6 +5,9 @@ import {faWhatsapp, faLinkedin, faInstagram, faTwitter, faTiktok} from '@fortawe
 import { Link } from "react-router-dom"
 
 const Footer = () => {
+
+    const year = new Date().getFullYear()
+
   return (
     <>
     <div className='foo-wrapper'>
@@ -34,16 +37,16 @@ const Footer = () => {
             className='right-line'
             />
             <div className='foo-ul ul-right'>
-                <a href="https://wa.me/message/3XQPNKHLC6MME1" target='_blank'><FontAwesomeIcon className='f-icon' icon={faWhatsapp} /></a>
-                <a href="https://www.linkedin.com/company/blueprint-pathway/" target='_blank'><FontAwesomeIcon className='f-icon' icon={faLinkedin} /></a>
-                <a href="https://instagram.com/blueprintspathway?igshid=YmMyMTA2M2Y=" target='_blank'><FontAwesomeIcon className='f-icon' icon={faInstagram} /></a>
-                <a href="https://twitter.com/blueprintspath?s=21&t=qRbPITBhtbgyIjwYEKBd0A" target='_blank'><FontAwesomeIcon className='f-icon' icon={faTwitter} /></a>
-                <a href="http://www.tiktok.com/@blueprints_pathway" target='_blank'><FontAwesomeIcon className='f-icon' icon={faTiktok} /></a>
+                <a href="https://wa.me/message/3XQPNKHLC6MME1" target='_blank' rel="noreferrer"><FontAwesomeIcon className='f-icon' icon={faWhatsapp} /></a>
+                <a href="https://www.linkedin.com/company/blueprint-pathway/" target='_blank' rel="noreferrer"><FontAwesomeIcon className='f-icon' icon={faLinkedin} /></a>
+                <a href="https://instagram.com/blueprintspathway?igshid=YmMyMTA2M2Y=" target='_blank' rel="noreferrer"><FontAwesomeIcon className='f-icon' icon={faInstagram} /></a>
+                <a href="https://twitter.com/blueprintspath?s=21&t=qRbPITBhtbgyIjwYEKBd0A" target='_blank' rel="noreferrer"><FontAwesomeIcon className='f-icon' icon={faTwitter} /></a>
+                <a href="http://www.tiktok.com/@blueprints_pathway" target='_blank' rel="noreferrer"><FontAwesomeIcon className='f-icon' icon={faTiktok} /></a>
             </div>
         </div>
     </div>
     <div>
-        <p className='foot-btm'>©  Copyright Blueprints 2022</p>
+        <p className='foot-btm'>©  Copyright Blueprints {year}</p>
     </div>
     </>
   )
