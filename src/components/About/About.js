@@ -156,7 +156,7 @@ const About = () => {
               to do our best and deliver more than expected.
           </p>
      
-           <div className='card-wrapper'>
+           {/* <div className='card-wrapper'>
                 {data.map((item, index) => {
                   return (
                     <div className='about-cards'
@@ -181,7 +181,7 @@ const About = () => {
            transition={{type: 'tween', stiffness: 300}}
           >Get to know more</motion.button>
 
-               </div>
+               </div> */}
          
       </div>
   </div>

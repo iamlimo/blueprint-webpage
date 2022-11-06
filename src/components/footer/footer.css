@@ -90,7 +90,7 @@ a{
 }
 a:hover
 {
-  color:white;
+  /* color:white; */
   text-decoration:none;
   cursor:pointer;
 }
