@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './about.css'
 import Line from '../../assets/line-this.png'
 import frame from '../../assets/frame-design.png'
-import data from '../aboutData'
+// import data from '../aboutData'
 import { motion } from "framer-motion"
 
 
