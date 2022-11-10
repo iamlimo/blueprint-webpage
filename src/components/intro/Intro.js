@@ -25,7 +25,7 @@ function Intro(){
                 <div id="actual-quote">
                 <h1 id="h1-center">“{quoteItem.quote}”</h1>
            </div>
-           {/* Always deliver more than expected */}
+           
            <div id="feel">
             <p>How do you feel today?</p>  
 

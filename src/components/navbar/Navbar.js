@@ -26,9 +26,10 @@ function NavScrollExample() {
             <hr />
             <Link className='nav-pages'  to="/about">Solutions</Link>
             <hr /> 
-            <Link className='nav-pages'  href="#action2">Blog</Link>
+            {/* <Link className='nav-pages'  href="https://blueprintpathway.medium.com/">Blog</Link> */}
+            <a className='nav-pages' href="https://blueprintpathway.medium.com/" target='_blank' rel="noreferrer">Blog</a>
             <hr />
-            <Link className='nav-pages' href="#action2">Our Culture</Link>
+            <Link className='nav-pages' to="/culture">Our Culture</Link>
             <hr />
 
             <motion.button

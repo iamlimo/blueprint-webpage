@@ -357,11 +357,11 @@ width: 50vw;
   #qoutify{
     margin-left: 50px;
   }
-  #actual-quote > h1 {
+  #actual-quote > h1{
     font-family: 'Poppins';
     font-style: normal;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 25px;
+    font-weight: 600;
     line-height: 40px;
     letter-spacing: 0.02em;
     color: #0E2C55;
@@ -370,7 +370,7 @@ width: 50vw;
     position:relative;
     right: 0;
     bottom: 0em;
-    top: 9em;
+    top: 17em;
     left: 1em;
     width: 34px;
     height: 55px;
@@ -383,7 +383,7 @@ width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px 0px 0px 0px;
+    margin: 5px;
   }
   
   .modal-content{
@@ -403,13 +403,18 @@ width: 50vw;
    margin: -150px 0px 0px 0px;
    width: 100%;
   }
+
+  #feel{
+    display: none;
+  }
   
   .landing-headline{
     font-style: normal;
     color: #0E2C55;
-    font-size: 35px;
-    font-weight: 800;
+    font-size: 30px;
+    font-weight: 700;
     width: 100%;
+    margin-top: 0px;
   }
   .span-div{
     /* margin: -43px 0px -60px 0px; */
@@ -463,19 +468,19 @@ width: 50vw;
     height: 10px;
   }
   .con-line{
-    width: 210px;
+    width: 185px;
   }
   .ess-line{
-    width: 170px;
+    width: 150px;
   }
   .easy-line{
-    width: 90px;
+    width: 80px;
   }
   .cre-line{
-    width: 155px;
+    width: 135px;
   }
   .acc-line{
-    width: 195px;
+    width: 170px;
   }
   
   .intro-ul{
