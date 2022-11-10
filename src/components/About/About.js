@@ -21,7 +21,7 @@ const About = () => {
   return (
   <div className='ab-wrapper'>
 
-               {/* ABOUT TOP */}
+               {/* Beginning of ABOUT TOP */}
       <div className='about-con-top'>
         <div className='ab-top-title'>
           <img src={Line} className='ab-line' alt='line' />
