@@ -26,7 +26,7 @@ const Footer = () => {
             <div className='foo-ul ul-middle'>
                 <Link to="/" className='foo-li'>Home</Link>
                 <Link to="/about" className='foo-li'>Solutions</Link>
-                <a href="https://blueprintpathway.medium.com/" className='foo-li'>Blog</a>
+                <a href="https://blueprintpathway.medium.com/" target='_blank' rel="noreferrer" className='foo-li'>Blog</a>
                 <Link to="/culture" className='foo-li'>Our Culture</Link>
                 <Link to="/" className='foo-li'>Contact Us</Link>
             </div>
