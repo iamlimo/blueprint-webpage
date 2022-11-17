@@ -1,5 +1,5 @@
 import React from 'react'
-import './section5.css'
+import './travels.css'
 import Line from '../../assets/line-this.png'
 import students from '../../assets/students-img.png'
 import { motion } from "framer-motion"

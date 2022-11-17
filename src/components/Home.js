@@ -4,7 +4,7 @@ import Navbar from './navbar/Navbar'
 import Footer from './footer/Footer'
 import Intro from './intro/Intro'
 import Products from './products/Products'
-import Section5 from './section5/Secton5'
+import Section5 from './Travels/Travels'
 
 const Home = () => {
   return (

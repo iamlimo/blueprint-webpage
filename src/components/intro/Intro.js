@@ -25,7 +25,7 @@ function Intro(){
                 <div id="actual-quote">
                 <h1 id="h1-center">“{quoteItem.quote}”</h1>
            </div>
-           
+
            <div id="feel">
             <p>How do you feel today?</p>  
 
@@ -145,8 +145,8 @@ function Intro(){
           </div>
 
           <div className="right-side">
-<div id=" carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
-  <div className="carousel-inner">
+<div id=" carouselExampleFade" className="carousel-div slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+  <div className="carousel-inner car-img-div">
     <div className="carousel-item active" data-bs-interval="900">
       <img src={Gale} className="intro-pic d-block" alt="..." />
     </div>
