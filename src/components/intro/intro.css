@@ -432,14 +432,16 @@ width: 50vw;
     flex-direction: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 16px 0px 20px;
+    padding: 0px 17px 0px 20px;
     margin: 0px 0px;
   }
   .car-img-div{
     width: 100%;
   }
-  .carousel-div{
+  .carousel-inner>.item>img {
+    height: auto;
     width: 100%;
+    margin: auto;
   }
   .intro-btn{
   border: none;
