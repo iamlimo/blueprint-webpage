@@ -1,12 +1,13 @@
 import React from "react";
 import LineImg from '../../assets/line-this.png'
-import HouseOfBread from '../../assets/HouseOfBread.png'
-import Arik from '../../assets/Arik-pic.png'
+// import HouseOfBread from '../../assets/HouseOfBread.png'
+// import Arik from '../../assets/Arik-pic.png'
 import Chidinma from '../../assets/chidinma-pic.png'
 import Gale from '../../assets/intro-img.png'
 import './intro.css'
 import { motion } from "framer-motion"
 import Quotes from "../Quotes";
+import Carousel from 'react-bootstrap/Carousel';
 
 
 function Intro(){
@@ -145,7 +146,7 @@ function Intro(){
           </div>
 
           <div className="right-side">
-<div id=" carouselExampleFade" className="carousel-div slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+{/* <div id=" carouselExampleFade" className="carousel-div slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
   <div className="carousel-inner car-img-div">
     <div className="carousel-item active" data-bs-interval="900">
       <img src={Gale} className="intro-pic d-block" alt="..." />
@@ -160,7 +161,24 @@ function Intro(){
       <img src={Chidinma} className="intro-pic d-block" alt="..." />
     </div>
   </div>
-</div>
+</div> */}
+<Carousel fade>
+      <Carousel.Item>
+        <img
+          className="d-block w-100 intro-pic"
+          src={Gale}
+          alt="First slide"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100 intro-pic"
+          src={Chidinma}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+    </Carousel>
 
           </div>
           </div>
