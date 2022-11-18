@@ -73,13 +73,23 @@
     margin: 20px 0px 0px 70px;
     background-color: #FDEA6A;
 }
+.pro-btn:hover{
+    scale: 1.05;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
 
 .pro-left{
-    width: 50%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url('../../assets/circle-background.png');
     background-repeat: no-repeat;
     background-size: 500px;
-    background-position: center;
+    background-position: 30px 200px;
+    margin: 0px 50px;
 }
 
 
@@ -150,15 +160,28 @@
         justify-content: center;
         width: 100%;
     }
-    .pro-left{
+    /* .pro-left{
         width: 100%;
         background-image: url('../../assets/circle-background.png');
         background-repeat: no-repeat;
         background-size: 350px;
         background-position: 50px 200px;
         display: flex;
+        font-display: row;
         align-items: center;
         justify-content: space-between;
+        margin: 0px 50px;
+    } */
+    .pro-left{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url('../../assets/circle-background.png');
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position: 40px 200px;
         margin: 0px 0px;
     }
     
@@ -167,8 +190,8 @@
     width: 350px;
     height: 650px;
     left: 118px;
-    margin: 25px 0px 0px 30px;
-    padding: 50px 0px 0px 30px;
+    margin: 25px 50px 0px 50px;
+    padding: 50px 0px 0px 0px;
 }
 
 .pro-img2{

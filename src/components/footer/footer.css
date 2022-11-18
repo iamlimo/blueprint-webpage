@@ -29,12 +29,6 @@
     margin-left: 0px;
 }
 
-.foo-left{
-}
-
-.foo-middle{
-}
-
 .ul-middle{
     display: flex;
     flex-direction: column;
@@ -123,9 +117,8 @@ a:hover
 }
 
 .foo-left{
-}
-
-.foo-middle{
+    text-align: left;
+    padding-left: 30px;
 }
 
 .ul-middle{
@@ -204,21 +197,24 @@ a:hover
         flex-direction: column;
         width: 100%;
         justify-content: center;
-        align-items: center;
-        padding: 50px 0px 20px 0px;
+        align-items: flex-start;
+        padding: 50px 30px 20px 30px;
         color: white;
         background-color: #0E2C55;
     }
-    
     .foo-title{
         font-size: 22px;
         font-weight: 500;
         margin: 0px 0px -18px 0px;
     }
+    .foo-li{
+        text-align: left;
+    }
     
     .foo-ul{
         list-style-type: none;
         margin-top: 13px;
+        text-align: left;
     }
     
     .ul-right{
@@ -230,16 +226,17 @@ a:hover
     }
     
     .foo-left{
-        margin-bottom: 20px;
+        margin: 0px 0px 20px -30px;
     }
-    
     .foo-middle{
         margin: 0px 90px 20px 0px;
     }
     
     .foo-right{
+        width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
         align-items: center;
         margin: 0px 0px 0px 0px;
     }

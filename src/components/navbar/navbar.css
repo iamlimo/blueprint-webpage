@@ -30,6 +30,11 @@
     height: 40px;
     background-color: #FDEA6A;
 }
+.li-btn:hover{
+    scale: 1.05;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
 
 
 @media (max-width: 768px) {

@@ -1,11 +1,10 @@
 import React from "react";
 import LineImg from '../../assets/line-this.png'
-// import HouseOfBread from '../../assets/HouseOfBread.png'
-// import Arik from '../../assets/Arik-pic.png'
+import HouseOfBread from '../../assets/HouseOfBread.png'
+import Arik from '../../assets/Arik-pic.png'
 import Chidinma from '../../assets/chidinma-pic.png'
 import Gale from '../../assets/intro-img.png'
 import './intro.css'
-import { motion } from "framer-motion"
 import Quotes from "../Quotes";
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -108,66 +107,61 @@ function Intro(){
         <div className="intro-top">
           <div className="landing-top">
             <h2 className="landing-headline">Providing 
-
-            <span id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
-  <div className="span-div carousel-inner">
-    <span className="carousel-item active" transition="transform 2s ease-in, opacity 1s ease-out" data-bs-interval="1100">
+       <div className="span-div">
+       <Carousel fade interval="500" indicators={false} nextIcon={false} prevIcon={false}>
+      <Carousel.Item>
         <p className='span-txt' style={{color: '#6c57d9'}}>convenient</p>
         <hr className='con-line line'/>
-    </span>
-    <span className="carousel-item" transition="transform 2s ease-in, opacity 1s ease-out" data-bs-interval="1100">
+      </Carousel.Item>
+      <Carousel.Item>
         <p className='span-txt' style={{color: '#478aef'}}>essential</p>
         <hr className='ess-line line'/>
-    </span>
-    <span className="carousel-item" transition="transform 2s ease-in, opacity 1s ease-out" data-bs-interval="1100">
+      </Carousel.Item>
+      <Carousel.Item>
         <p className='span-txt' style={{color: '#0e2c55'}}>easy</p>
         <hr className='easy-line line'/>
-    </span>
-    <span className="carousel-item" transition="transform 2s ease-in, opacity 1s ease-out" data-bs-interval="1100">
+      </Carousel.Item>
+      <Carousel.Item>
         <p className='span-txt' style={{color: '#bf3232'}}>creative</p>
         <hr className='cre-line line'/>
-    </span>
-    <span className="carousel-item" transition="transform 2s ease-in, opacity 1s ease-out" data-bs-interval="1100">
+      </Carousel.Item>
+      <Carousel.Item>
         <p className='span-txt' style={{color: '#339737'}}>accessible</p>
         <hr className='acc-line line'/>
-    </span>
-  </div>
-</span>
-
-            <br/>solutions for you</h2>
+      </Carousel.Item>
+      </Carousel>
+      </div>
+        <br/>solutions for you</h2>
             <p className="intro-words">We connect you to solutions designed to eliminate everyday complications or we are a Nigerian tech solutions company committed to simplifying digital processes in every industry across Africa, from Edu-travel to Fintech.
 </p>
-          <motion.button className="intro-btn"
-          whileHover={{scale: 1.07, originX: 0}}
-          transition={{type: 'tween', stiffness: 300}}
-          >
+          <button className="intro-btn">
             Get to know more
-          </motion.button>
+          </button>
           </div>
 
           <div className="right-side">
-{/* <div id=" carouselExampleFade" className="carousel-div slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
-  <div className="carousel-inner car-img-div">
-    <div className="carousel-item active" data-bs-interval="900">
-      <img src={Gale} className="intro-pic d-block" alt="..." />
-    </div>
-    <div className="carousel-item" data-bs-interval="900">
-      <img src={HouseOfBread} className="intro-pic d-block" alt="..." />
-    </div>
-    <div className="carousel-item" data-bs-interval="900">
-      <img src={Arik} className="intro-pic d-block" alt="..." />
-    </div>
-    <div className="carousel-item" data-bs-interval="900">
-      <img src={Chidinma} className="intro-pic d-block" alt="..." />
-    </div>
-  </div>
-</div> */}
-<Carousel fade>
+<Carousel fade interval="200" indicators={false} nextIcon={false} prevIcon={false}>
       <Carousel.Item>
         <img
           className="d-block w-100 intro-pic"
           src={Gale}
           alt="First slide"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100 intro-pic"
+          src={HouseOfBread}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100 intro-pic"
+          src={Arik}
+          alt="Second slide"
         />
       </Carousel.Item>
 

@@ -14,11 +14,13 @@ const Footer = () => {
         <div className='foo-left'>
             <p className='foo-title'>Blueprints Pathways</p>
             <hr />
-            <ul className='foo-ul'>
+            <div className='foo-ul'>
+                {/* <ul> */}
                 <li className='foo-li'>Elf Bus stop, No 1b Akinyemi Ave, <br /> Lekki Phase 1 106104, Lagos</li>
                 <li className='foo-li'>+234-704-1127-855</li>
                 <li className='foo-li'>+234-902-8197-960</li>
-            </ul>
+                {/* </ul> */}
+            </div>
         </div>
         <div className='foo-middle'>
             <p className='foo-title'>Quick Links</p>

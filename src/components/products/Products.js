@@ -5,7 +5,7 @@ import phone from '../../assets/phone-img.png'
 import phone2 from '../../assets/phone2-img.png'
 import google from '../../assets/google-play.png'
 import app from '../../assets/app-store.png'
-import { motion } from "framer-motion"
+import Carousel from 'react-bootstrap/Carousel';
 
 
 const Products = () => {
@@ -21,19 +21,16 @@ const Products = () => {
      <div className='pro-content'>
 
         <div className='pro-left'>
-         {/* <img src={phone} className='pro-img' alt='line' /> */}
 
-         <div id=" carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
-  <div className="carousel-inner">
-    <div className="phone-img carousel-item active"  transition="transform 2s ease-in, opacity 1s ease-out" data-bs-interval="3000">
-      <img src={phone} className="pro-img d-block" alt="..." />
-    </div>
-    <div className="phone2-img carousel-item"  transition="transform 2s ease-in, opacity 1s ease-out" data-bs-interval="3000">
-      <img src={phone2} className="pro-img2 d-block" alt="..." />
-    </div>
-  </div>
-</div>
-         
+    <Carousel fade interval="1500" indicators={false} nextIcon={false} prevIcon={false}>
+      <Carousel.Item>
+        <img src={phone} className="pro-img d-block" alt="..." />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={phone2} className="pro-img2 d-block" alt="..." />
+      </Carousel.Item>
+    </Carousel>
+ 
          <div className='download'
          >
             <button className='download-btn'>
@@ -46,6 +43,7 @@ const Products = () => {
                <span className='btn-txt'>Download on Appstore</span> 
             </button>
          </div>
+
         </div>
         
         <div className='pro-right'>
@@ -58,13 +56,9 @@ const Products = () => {
                <li className='pro-li'>Enforces two-party confirmation</li>
                <li className='pro-li'>Guaranteed refunds on any scam on the platform</li>
            </ul>
-           <motion.button
-             whileHover={{scale: 1.07, originX: 0}}
-             transition={{type: 'tween', stiffness: 300}}
-           className='pro-btn'
-           >
+           <button className='pro-btn'>
             Get to know more
-            </motion.button>
+            </button>
         </div>
      </div>
     </div>

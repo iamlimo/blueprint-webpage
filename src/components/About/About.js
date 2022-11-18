@@ -1,21 +1,20 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './about.css'
 import Line from '../../assets/line-this.png'
 import frame from '../../assets/frame-design.png'
 // import data from '../aboutData'
-import { motion } from "framer-motion"
 
 
 const About = () => {
 
-  const [show, setShow] = useState(-1);
+  // const [show, setShow] = useState(-1);
 
-  const handleHover = (index) => {
-    setShow(index);
-  }
-  const handleMouseOut = () => {
-    setShow(-1);
-  };
+  // const handleHover = (index) => {
+  //   setShow(index);
+  // }
+  // const handleMouseOut = () => {
+  //   setShow(-1);
+  // };
 
 
   return (
@@ -46,17 +45,9 @@ const About = () => {
                   <h3 className='card-title'>Branding</h3>
                   <p className='card-words'>Meeting brand objectives is made simpler with Blueprints Pathway since we provide strategy services with great brains that thoroughly investigate the best communication model and approach for your company.</p>
                    <div className='card-bottom'>
-                  <motion.p
-                  whileHover={{
-                    backgroundColor: '#FDEA6A',
-                    padding: '5px',
-                    borderRadius: '15px'
-                  }}
-                  transition={{type: 'tween', stiffness: 300}}
-                   className='card-link'
-                   >
+                  <p className='card-link'>
                     Get to know more
-                    </motion.p>
+                    </p>
                   <img  className='card-frame' src={frame} alt='card-frame' />
                    </div>
                 </div>
@@ -70,17 +61,9 @@ const About = () => {
                   <h3 className='card-title'>IT services, Product Design & Development </h3>
                   <p className='card-words'> From the UI to the UX, we develop mood-enhancing, narrative websites that reach and make them appear appealing to their target demographic and beyond, add flavour to the brand, and give it more trust.</p>
                   <div className='card-bottom'>
-                  <motion.p 
-                  whileHover={{
-                    backgroundColor: '#FDEA6A',
-                    padding: '5px',
-                    borderRadius: '15px'
-                  }}
-                  transition={{type: 'tween', stiffness: 300}}
-                  className='card-link'
-                  >
+                  <p className='card-link'>
                     Get to know more
-                    </motion.p>
+                    </p>
                   <img  className='card-frame' src={frame} alt='card-frame' />
                    </div>
                  </div>
@@ -99,18 +82,10 @@ const About = () => {
                   <h3 className='card-title card-line-2'>Content</h3>
                   <p className='card-words'>We produce content that works on all digital and social media channels. Content draws your audience even closer by narrating the stories behind your business. </p>
                   <div className='card-bottom'>
-                  <motion.p 
-                  whileHover={{
-                    backgroundColor: '#FDEA6A',
-                    padding: '5px',
-                    borderRadius: '15px'
-                  }}
-                  transition={{type: 'tween', stiffness: 300}}
-                  className='card-link'
-                  >
+                  <p className='card-link'>
                     Get to know more
-                    </motion.p>
-                  <img  className='card-frame' src={frame} alt='card-frame' />
+                    </p>
+                  <img  className='card-frame frame-2' src={frame} alt='card-frame' />
                    </div>
                 </div>
 
@@ -123,17 +98,9 @@ const About = () => {
                   <h3 className='card-title'>Brand Engagement</h3>
                   <p className='card-words'>Your brand will undoubtedly establish a steadfast place in the hearts of your target audience by engaging in conversation and responding to client issues.</p>
                   <div className='card-bottom'>
-                  <motion.p 
-                  whileHover={{
-                    backgroundColor: '#FDEA6A',
-                    padding: '5px',
-                    borderRadius: '15px'
-                  }}
-                  transition={{type: 'tween', stiffness: 300}}
-                  className='card-link'
-                  >
-                    Get to know more</motion.p>
-                  <img  className='card-frame' src={frame} alt='card-frame' />
+                  <p className='card-link'>
+                    Get to know more</p>
+                  <img  className='card-frame frame-2' src={frame} alt='card-frame' />
                    </div>
                 </div>
               </div>

@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../../assets/blueprint-logo.png'
 import {Link} from 'react-router-dom'
-import { motion } from "framer-motion"
+
 
 function NavScrollExample() {
   return (
@@ -32,14 +32,9 @@ function NavScrollExample() {
             <Link className='nav-pages' to="/culture">Our Culture</Link>
             <hr />
 
-            <motion.button
-            whileHover={{scale: 1.07, originX: 0}}
-            transition={{type: 'tween', stiffness: 300}}
-
-            className='li-btn'
-            >
+            <button className='li-btn'>
               Get to know more
-            </motion.button>
+            </button>
 
           </Nav>
         </Navbar.Collapse>

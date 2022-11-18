@@ -149,6 +149,11 @@ background-size: 1050px;
   margin: 30px 0px;
   background-color: #FDEA6A;
 }
+.intro-btn:hover{
+  scale: 1.05;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 
 .intro-words{
   letter-spacing: 0.05rem;
@@ -176,7 +181,7 @@ background-size: 1050px;
   margin-bottom: -17px;
 }
 .span-div{
-  margin: -60px 0px -80px 0px;
+  margin: -60px 0px -60px 0px;
 }
 
 .span-txt{
@@ -184,7 +189,7 @@ background-size: 1050px;
 }
 
 .line{
-  margin: -25px 0px 15px 265px;
+  margin: -25px 0px 0px 265px;
   border: 6px solid #f3d40d;
   border-radius: 5px;
   height: 10px;
@@ -310,15 +315,22 @@ color: grey;
 margin-top: 30px;
 width: 50vw;
 }
+.intro-top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .right-side{
-  width: 100vw;
-  position: absolute;
-  margin-top: -190px;
+  float: center;
+  width: 70vw;
+  position: relative;
+  margin: -200px 0px 0px 100px;
 }
 .intro-pic{
   width: 300px;
   height: 400px;
-  margin: 250px 0px 0px 0px;
+  margin: 250px 50px 0px 50px;
   float: right;
 }
 .intro-bottom{
@@ -376,8 +388,8 @@ width: 50vw;
   }
   .landingCta{
     background-image: url("../../assets/bacground1.png");
-  background-repeat: no-repeat;
-  background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: 1500px;
     display: flex;
     flex-direction: column;
@@ -418,14 +430,14 @@ width: 50vw;
   }
   .span-div{
     /* margin: -43px 0px -60px 0px; */
-    margin: 0px 0px -60px 0px;
+    margin: 0px 0px -55px 0px;
   }
   .span-txt{
     /* padding: 0px 0px 0px 185px; */
     padding: 0px 0px 0px 0px;
   }
   .right-side{
-    width: 70%;
+    width: 68%;
     position: relative;
     display: flex;
     flex-direction: flex;
@@ -455,7 +467,7 @@ width: 50vw;
   .intro-pic{
     width: 400px;
     height: 400px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px;
   }
   .intro-bottom{
     background-color: rgba(255, 138, 0, 0.04);

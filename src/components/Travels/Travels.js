@@ -2,7 +2,6 @@ import React from 'react'
 import './travels.css'
 import Line from '../../assets/line-this.png'
 import students from '../../assets/students-img.png'
-import { motion } from "framer-motion"
 
 const Section5 = () => {
   return (
@@ -19,12 +18,8 @@ const Section5 = () => {
                <li className='sec-li'>Canada is the top choice for Nigerian hopefuls</li>
                <li className='sec-li'>Insert function</li>
            </ul>
-           <motion.button 
-            whileHover={{scale: 1.07, originX: 0}}
-            transition={{type: 'tween', stiffness: 300}}
-           className='sec-btn'
-           >
-            Get to know more</motion.button>
+           <button className='sec-btn'>
+            Get to know more</button>
         </div>
         <div className='sec-right'>
             <img src={students} className='sec-img' alt="students"/>
