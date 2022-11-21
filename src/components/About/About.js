@@ -136,7 +136,7 @@ const About = () => {
             className='btm-cards'  key={item.id}> 
               <img className='btm-card-img img-top' src={item.img} alt={item.alt}/>
               <h6 className='btm-card-word'>{item.word}</h6>
-                   {show === index ? <p className='hover'>{item.hover}</p>: null } 
+                   {show === index ? <p className='hover'>{item.hover}</p>: null} 
 
             </motion.div> 
                 </div>
